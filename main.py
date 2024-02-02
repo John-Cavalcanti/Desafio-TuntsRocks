@@ -41,7 +41,7 @@ def define_students_situation(sheets_arr):
             if(student_average_grade < 50):
                 students_situation.append(['Reprovado por nota',0])
             elif(student_average_grade < 70):
-                # naf = nota para aprovação final
+                # naf = required grade for final approve or in portuguese : nota para aprovação final
                 naf = ceil(100 - student_average_grade)
                 students_situation.append(['Exame final',naf])
             else:
