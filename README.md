@@ -58,9 +58,13 @@ obs.: Caso em sua IDE os imports do arquivo main.py estejam com warnings como na
 
 Então após todos esses passos será possível ver as alterações na planilha com as situações
 de todos os alunos e caso estejam em exame final a nota necessária para passar será exibida
-na sua devida coluna :
+na sua devida coluna.
+
+Antes das alterações:
 
 ![planilha_inicial](./rdmimgs/planilha_inicial.png)
+
+Após alterações:
 
 ![planilha_alterada](./rdmimgs/planilha_alterada.png)
 
